@@ -1,0 +1,41 @@
+United States Civilian Population 
+========================================================
+author: Teddy Rusli
+date: Aug 22, 2015
+
+Source
+========================================================
+
+- United States Census Bureau open up their data for public use
+- The Shiny App is built to easily visualize a subset of the data
+- It focuses on visualizng the data
+
+
+Visualize Population Distribution by State
+========================================================
+
+- California is the most populated state
+- Texas is the second most populated state
+- The two states significantly outnumber other states
+
+Visualize Population Distribution by Age
+========================================================
+
+- The population is fairly distributed among age group
+- It drops quickly around age 62
+
+Explore Population Distribution by State and Age
+========================================================
+
+- Use Time Slider to filter by year
+- Use Population Slider to filter by population number
+
+
+
+Next Steps
+========================================================
+
+- Expand Shiny App to include more data points
+
+
+

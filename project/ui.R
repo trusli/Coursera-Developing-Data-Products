@@ -17,25 +17,15 @@ shinyUI(pageWithSidebar(
         sliderInput("population", 
                     "Total Population",
                     min = 0,
-                    max = 400000000,
-                    value = c(0, 400000000) 
-        ),
-        #format = "####"),
-        uiOutput("themesControl"), # the id
-        actionButton(inputId = "clearAll", 
-                     label = "Clear selection", 
-                     icon = icon("square-o")),
-        actionButton(inputId = "selectAll", 
-                     label = "Select all", 
-                     icon = icon("check-square-o"))
-        
+                    max = 250000,
+                    value = c(0, 250000))
     ),
     mainPanel(
-        tabPanel(p(icon("line-chart"), "Visualize the Data"), 
-                 h4('Age by Year', align = "center"),
-                 showOutput("ageByYear", "nvd3"),
-                 h4('Gender by Year', align = "center"),
-                 showOutput("genderByYear", "nvd3")
-        ) # end of "Visualize the Data" tab panel
-    )     
-))
+        tabPanel(p(icon("line-chart"), "Visualize Data"), 
+                 h4('US Population Breakdown By State', align = "center"),
+                 showOutput("USStateAvg", "nvd3"),
+                 h4('US Population Breakdown By Age', align = "center"),
+                 showOutput("USageAvg", "nvd3"))
+        )     
+    )
+)

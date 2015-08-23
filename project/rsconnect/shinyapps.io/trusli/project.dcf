@@ -1,8 +1,8 @@
 name: project
 account: trusli
 server: shinyapps.io
-bundleId: 245021
+bundleId: 247918
 url: https://trusli.shinyapps.io/project
-when: 1440050854.39232
+when: 1440293879.2286
 asMultiple: FALSE
 asStatic: FALSE

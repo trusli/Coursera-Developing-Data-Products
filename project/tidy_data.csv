@@ -1,4 +1,4 @@
-Year,STATE,NAME,SEX,AGE,Population
+year,state,usState,sex,age,population
 2010,1,Alabama,1,0,30565
 2010,2,Alaska,1,0,5575
 2010,4,Arizona,1,0,44915
